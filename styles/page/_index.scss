@@ -1,0 +1,29 @@
+.banner {
+    position: relative;
+    z-index: -2;
+    background-image: url(../img/banner.png);
+    height: 345px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+
+    &::after {
+        display: block;
+        content: " ";
+        background-color: $primary;
+        opacity: 0.5;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        z-index: -1;
+        height:156px ;
+        transform: translateY(-50%);
+
+    }
+
+}
+
+.liner-gradient{
+    background-image: linear-gradient( to bottom, darken($secondary,25%), darken($secondary,10%));
+}

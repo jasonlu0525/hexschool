@@ -1,0 +1,12 @@
+.card{
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px $primary ;
+    border:  1px solid $gray-light-1;
+    &-header{
+        min-height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
