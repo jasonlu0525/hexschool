@@ -1,3 +1,19 @@
+
+// @each $responsive_name,
+// $responsive_val in $responsive {
+
+//     @each $responsive_device,
+//     $responsive_device_val in $responsive_val {
+//         @mixin #{$responsive_name}-#{$responsive_device} {
+//             @media screen and(max-width:#{$responsive_device_val}) {
+//                 @content;
+//             }
+//         }
+//     }
+// }
+
+
+
 @mixin pc-992 {
      @media screen and(max-width:992px) {
          @content;

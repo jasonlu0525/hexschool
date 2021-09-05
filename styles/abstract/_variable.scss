@@ -155,16 +155,3 @@ $responsive:(pc:(992:992px),
 
 
 
-
-// @each $responsive_name,
-// $responsive_val in $responsive {
-
-//     @each $responsive_device,
-//     $responsive_device_val in $responsive_val {
-//         @mixin a{
-//             @media screen and(max-width:#{$responsive_device_val}) {
-//                 @content;
-//             }
-//         }
-//     }
-// }
