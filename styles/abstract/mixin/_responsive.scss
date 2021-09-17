@@ -11,14 +11,7 @@
 //     }
 // }
 
-$breakpoints:("xl":992px,
-    "md":768px, "2sm":767px,
-    "sm":576px,
-    "3xs":375px,
-    "2xs":414px,
-    "xs":320px,
 
-);
 
 @mixin breakpoint-down($breakpoints_prefix) {
     $breakpoints_name: map-get($breakpoints, $breakpoints_prefix);

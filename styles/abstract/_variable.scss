@@ -146,13 +146,11 @@ $position:(dir: top left bottom right,
         100:100%),
     values: relative absolute fixed sticky initial);
 
-// $breakpoints:(
-//     xl:992px,
-//     md:768px,
-//     2sm:767px,
-//     sm:576px,
-//     3xs:375px,
-//     2xs:414px,
-//     xs:320px,
+$breakpoints:("xl":992px,
+    "md":768px, "2sm":767px,
+    "sm":576px,
+    "3xs":375px,
+    "2xs":414px,
+    "xs":320px,
 
-// );
+);
