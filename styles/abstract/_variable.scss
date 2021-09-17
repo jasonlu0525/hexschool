@@ -39,7 +39,8 @@ $colors:(primary:$primary,
 
 $colors_prefix:(bg:background-color,
     text:color,
-    border:border-color);
+    border:border-color,
+    link:color);
 
 $spacing:(0:0px,
     1:4px,
@@ -145,13 +146,13 @@ $position:(dir: top left bottom right,
         100:100%),
     values: relative absolute fixed sticky initial);
 
-$responsive:(pc:(992:992px),
-    pad:(768:768px),
-    phone:(767:767px,
-        576:576px,
-        414:414px,
-        375:375px,
-        320:320px));
+// $breakpoints:(
+//     xl:992px,
+//     md:768px,
+//     2sm:767px,
+//     sm:576px,
+//     3xs:375px,
+//     2xs:414px,
+//     xs:320px,
 
-
-
+// );

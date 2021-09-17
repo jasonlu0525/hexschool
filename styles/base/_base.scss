@@ -39,12 +39,13 @@ body {
 }
 
 
-h1 {
-	font-size: $fs-3; //
-}
+// h1 {
+// 	font-size: $fs-5; //
+// }
 
 h2 {
-	font-size: $fs-5; //
+	
+	font-size: $fs-3; //
 }
 
 h3 {
@@ -53,6 +54,10 @@ h3 {
 
 h4 {
 	font-size: $fs-11; //
+}
+
+.h1{
+	line-height: 0;
 }
 
 h1,

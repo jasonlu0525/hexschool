@@ -1,10 +1,10 @@
 @import "abstract/variable";
 @import "abstract/text";
 @import "abstract/spacing";
-@import "abstract/responsive";
 @import "abstract/layout";
 @import "abstract/color";
 @import "abstract/position";
+@import "abstract/mixin/responsive";
 
 @import "base/reset";
 @import "base/base";
